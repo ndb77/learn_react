@@ -17,7 +17,8 @@ function MeetupList(props) {
             key={meetup.id}
             image={meetup.image}
             title={meetup.title}
-            address={meetup.description}
+            description={meetup.description}
+            address={meetup.address}
             //   meetup = {meetup}
             //   {key,image,title,address} = {meetup}
           />
